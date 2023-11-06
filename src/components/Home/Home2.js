@@ -52,36 +52,6 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>TROUVEZ MOI SUR</h1>
-
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/guirosse76"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                  title="GitHub"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/guillaume-rosset-a21b95124"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
       </Container>
     </Container>
   );
